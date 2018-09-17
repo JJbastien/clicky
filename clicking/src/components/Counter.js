@@ -10,7 +10,7 @@ class Counter extends React.Component {
   // handleIncrement increments this.state.count by 1
   handleIncrement = () => {
     // We always use the setState method to update a component's state
-    this.setState({ count: this.state.count - 1 });
+    this.setState({ count: this.state.count + 1 });
   };
 
   // The render method returns the JSX that should be rendered
